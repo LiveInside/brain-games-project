@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d808ecc1-70ff-4fee-90bd-923a64854d49" name="Changes" comment="init2">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="d808ecc1-70ff-4fee-90bd-923a64854d49" name="Changes" comment="init3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Calc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Even.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Even.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GCD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Greet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Greet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Prime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Prime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Progression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Progression.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1692013609364</updated>
       <workItem from="1692013612188" duration="8413000" />
-      <workItem from="1692024222275" duration="3171000" />
+      <workItem from="1692024222275" duration="6215000" />
     </task>
     <task id="LOCAL-00001" summary="init1">
       <created>1692015217911</created>
@@ -106,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692021282114</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="init3">
+      <created>1692027437542</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692027437542</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +140,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init1" />
     <MESSAGE value="init2" />
-    <option name="LAST_COMMIT_MESSAGE" value="init2" />
+    <MESSAGE value="init3" />
+    <option name="LAST_COMMIT_MESSAGE" value="init3" />
   </component>
 </project>
