@@ -11,7 +11,7 @@ public class Calc {
 
         for (var i = 0; i < 3; i++){
             Random random = new Random();
-            int randomNumber1 = random.nextInt(11);
+            int randomNumber1 = random.nextInt(101);
             int randomNumber2 = random.nextInt(11);
             String operators = "+-*/%";
             char arithOperator = RandomStringUtils.random(1, operators).charAt(0);
