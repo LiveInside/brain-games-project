@@ -1,7 +1,6 @@
 package org.example;
 
 import java.util.Random;
-import java.util.Scanner;
 
 public class Even {
     public static void even() {
@@ -13,18 +12,11 @@ public class Even {
             int randomNumber = random.nextInt(101);
 
             System.out.println("Question: " + randomNumber);
-            System.out.print("Your answer: ");
-            Scanner scanner = new Scanner(System.in);
-            String answer = scanner.nextLine();
 
             boolean trueAnswer = randomNumber % 2 == 0;
-            boolean userAnswer = answer.equals("yes");
+            boolean userAnswer = UserInput.userInputStr().equals("yes");
 
-            if (trueAnswer == userAnswer){
-                System.out.println("Correct!");
-            } else {
-                System.out.println("'" + answer + "'" + " is wrong answer ;(."
-                        + "\nLet's try again, " + userName + "!");
+            if (!EndOutput.endOutput(trueAnswer, userAnswer, userName)) {
                 return;
             }
         }

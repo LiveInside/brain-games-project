@@ -1,7 +1,7 @@
 package org.example;
 
 import java.util.Random;
-import java.util.Scanner;
+
 import org.apache.commons.lang3.RandomStringUtils;
 
 public class Calc {
@@ -18,12 +18,9 @@ public class Calc {
 
             System.out.println("Question: " + randomNumber1 + " " + arithOperator + " " + randomNumber2);
 
-            System.out.print("You answer: " );
-            Scanner scanner = new Scanner(System.in);
-            int userAnswer = scanner.nextInt();
-            scanner.nextLine();
-
             int trueAnswer = 0;
+            int userAnswer = UserInput.userInput();
+
             switch (arithOperator) {
                 case '+' -> trueAnswer = randomNumber1 + randomNumber2;
                 case '-' -> trueAnswer = randomNumber1 - randomNumber2;
@@ -33,12 +30,7 @@ public class Calc {
                 default -> System.out.println("Invalid operator");
             }
 
-            if (trueAnswer == userAnswer){
-                System.out.println("Correct!");
-            } else {
-                System.out.println("'" + userAnswer + "'" + " is wrong answer ;(. Correct answer was "
-                        + "'" + trueAnswer + "'"
-                        + "\nLet's try again, " + userName + "!");
+            if (EndOutput.endOutput(trueAnswer, userAnswer, userName)) {
                 return;
             }
         }
