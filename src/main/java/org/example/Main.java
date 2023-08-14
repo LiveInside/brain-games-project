@@ -14,36 +14,30 @@ public class Main {
                 6 - Prime
                 0 - Exit
                 """);
+        System.out.print("Your choice: " );
         Scanner scanner = new Scanner(System.in);
         int userChoice = scanner.nextInt();
         scanner.nextLine();
 
         switch (userChoice) {
             case 0 :
-                System.out.println("Your choice: " + userChoice);
                 return;
             case 1 :
-                System.out.println("Your choice: " + userChoice);
                 Greet.greet();
                 break;
             case 2 :
-                System.out.println("Your choice: " + userChoice);
                 Even.even();
                 break;
             case 3 :
-                System.out.println("Your choice: " + userChoice);
                 Calc.calc();
                 break;
             case 4 :
-                System.out.println("Your choice: " + userChoice);
                 GCD.gcd();
                 break;
             case 5 :
-                System.out.println("Your choice: " + userChoice);
                 Progression.progression();
                 break;
             case 6 :
-                System.out.println("Your choice: " + userChoice);
                 Prime.prime();
                 break;
         }

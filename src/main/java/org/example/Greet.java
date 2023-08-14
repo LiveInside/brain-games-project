@@ -3,7 +3,7 @@ package org.example;
 import java.util.Scanner;
 
 public class Greet {
-    public static void greet() {
+    public static String greet() {
         System.out.print("Welcome to the Brain Games!\n" +
                 "May I have your name? ");
 
@@ -11,5 +11,6 @@ public class Greet {
         String userName = scanner.nextLine();
 
         System.out.println("Hello, " + userName + "!");
+        return userName;
     }
 }

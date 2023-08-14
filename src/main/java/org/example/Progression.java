@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Progression {
 
     public static void progression() {
-        Greet.greet();
+        String userName = Greet.greet();
+        System.out.println("What number is missing in this progression?");
 
-        System.out.print("What number is missing in this progression?" +
-                "\nQuestion: 14 ..");
+        System.out.println("Question: 14 ..");
 
     }
 }
