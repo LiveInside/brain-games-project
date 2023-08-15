@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d808ecc1-70ff-4fee-90bd-923a64854d49" name="Changes" comment="init6">
+    <list default="true" id="d808ecc1-70ff-4fee-90bd-923a64854d49" name="Changes" comment="init7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/EndOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/EndOutput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Even.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Even.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Prime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Prime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Progression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Progression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GCD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +88,7 @@
       <workItem from="1692024222275" duration="6470000" />
       <workItem from="1692034470153" duration="5044000" />
       <workItem from="1692043631222" duration="4813000" />
-      <workItem from="1692093848763" duration="6210000" />
+      <workItem from="1692093848763" duration="7835000" />
     </task>
     <task id="LOCAL-00001" summary="init1">
       <created>1692015217911</created>
@@ -136,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692048411549</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="init7">
+      <created>1692101125492</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1692101125492</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +174,7 @@
     <MESSAGE value="init4" />
     <MESSAGE value="init5" />
     <MESSAGE value="init6" />
-    <option name="LAST_COMMIT_MESSAGE" value="init6" />
+    <MESSAGE value="init7" />
+    <option name="LAST_COMMIT_MESSAGE" value="init7" />
   </component>
 </project>
