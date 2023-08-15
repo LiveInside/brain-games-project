@@ -7,7 +7,8 @@ public class Prime {
 
     public static void prime() {
         String userName = Greet.greet();
-        System.out.println("Answer 'yes' if given number is prime. Otherwise answer 'no'.");
+        System.out.println("Answer 'yes' if given number is prime. "
+                + "Otherwise answer 'no'.");
 
         for (var i = 0; i < 3; i++) {
             Random random = new Random();

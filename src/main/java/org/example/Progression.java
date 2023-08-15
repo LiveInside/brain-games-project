@@ -15,11 +15,16 @@ public class Progression {
             int firstNumber = random.nextInt(10) + 1;
             int modNumber = random.nextInt(9) + 2;
             String operators = "+*";
-            char arithOperator = RandomStringUtils.random(1, operators).charAt(0);
+            char arithOperator = RandomStringUtils
+                    .random(1, operators)
+                    .charAt(0);
 
             System.out.print("Question: ");
 
-            int trueAnswer = generatorStrOfNumb(firstNumber, modNumber, arithOperator, random);
+            int trueAnswer = generatorStrOfNumb(firstNumber,
+                                                modNumber,
+                                                arithOperator,
+                                                random);
             int userAnswer = UserInput.userInput();
 
             if (EndOutput.endOutput(trueAnswer, userAnswer, userName)) {
@@ -30,7 +35,10 @@ public class Progression {
         System.out.println("Congratulations, " + userName);
     }
 
-    private static int generatorStrOfNumb(int firstNumber, int modNumber, char arithOperator, Random random){
+    private static int generatorStrOfNumb(int firstNumber,
+                                          final int modNumber,
+                                          final char arithOperator,
+                                          final Random random) {
         int dots = random.nextInt(8);
         int trueAnswer = 0;
 
