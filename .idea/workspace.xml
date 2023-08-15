@@ -4,19 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d808ecc1-70ff-4fee-90bd-923a64854d49" name="Changes" comment="add &quot;@NotNull&quot;">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+    <list default="true" id="717a503f-601e-4a16-962f-7c632e5b7de9" name="Changes" comment="add &quot;@NotNull&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkstyle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Calc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/EndOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/EndOutput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GCD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Greet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Greet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Prime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Prime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Progression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Progression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/UserInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/project/braingames/Calc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/EndOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/project/utils/EndOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Even.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/project/braingames/Even.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/project/braingames/GCD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Greet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/project/braingames/Greet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/project/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Prime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/project/braingames/Prime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Progression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/project/braingames/Progression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/project/utils/UserInput.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,12 +85,12 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration name="org.example.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+    <configuration name="org.project.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.project.Main" />
       <module name="BrainGames.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.project.braingames.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,7 +100,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.org.example.Main" />
+        <item itemvalue="Application.org.project.Main" />
       </list>
     </recent_temporary>
   </component>

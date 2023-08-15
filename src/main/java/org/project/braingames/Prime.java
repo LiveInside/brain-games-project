@@ -1,7 +1,9 @@
-package org.example;
+package org.project.braingames;
 
 import java.util.Random;
 import org.apache.commons.math3.primes.Primes;
+import org.project.utils.EndOutput;
+import org.project.utils.UserInput;
 
 public class Prime {
 

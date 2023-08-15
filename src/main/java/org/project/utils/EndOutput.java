@@ -1,4 +1,4 @@
-package org.example;
+package org.project.utils;
 
 public class EndOutput {
 

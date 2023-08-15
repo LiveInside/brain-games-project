@@ -1,7 +1,9 @@
-package org.example;
+package org.project.braingames;
 
 import org.apache.commons.math3.util.ArithmeticUtils;
 import org.jetbrains.annotations.NotNull;
+import org.project.utils.EndOutput;
+import org.project.utils.UserInput;
 
 import java.util.Random;
 
