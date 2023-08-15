@@ -1,8 +1,8 @@
 package org.example;
 
 import org.apache.commons.math3.util.ArithmeticUtils;
+import org.jetbrains.annotations.NotNull;
 
-import java.util.Arrays;
 import java.util.Random;
 
 // Определение наибольшего общего делителя
@@ -13,7 +13,7 @@ public class GCD {
 
         for (var i = 0; i < 3; i++) {
             Random random = new Random();
-            int sizeArray = random.nextInt(11);
+            int sizeArray = random.nextInt(9) + 2;
             int[] randomNumbers = new int[sizeArray];
 
             System.out.print("Question: " );
@@ -32,7 +32,7 @@ public class GCD {
         System.out.println("Congratulations, " + userName);
     }
 
-    private static int findGcd(int[] randomNumbers) {
+    private static int findGcd(int @NotNull [] randomNumbers) {
         int gcd = randomNumbers[0];
         for (int i = 1; i < randomNumbers.length; i++) {
             gcd = ArithmeticUtils.gcd(gcd, randomNumbers[i]);
