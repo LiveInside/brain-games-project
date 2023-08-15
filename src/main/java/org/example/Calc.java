@@ -9,14 +9,17 @@ public class Calc {
         String userName = Greet.greet();
         System.out.println("What is the result of the expression?");
 
-        for (var i = 0; i < 3; i++){
+        for (var i = 0; i < 3; i++) {
             Random random = new Random();
             int randomNumber1 = random.nextInt(101);
             int randomNumber2 = random.nextInt(11);
             String operators = "+-*/%";
-            char arithOperator = RandomStringUtils.random(1, operators).charAt(0);
+            char arithOperator = RandomStringUtils
+                    .random(1, operators)
+                    .charAt(0);
 
-            System.out.println("Question: " + randomNumber1 + " " + arithOperator + " " + randomNumber2);
+            System.out.println("Question: " + randomNumber1 + " "
+                    + arithOperator + " " + randomNumber2);
 
             int trueAnswer = 0;
             int userAnswer = UserInput.userInput();

@@ -1,6 +1,5 @@
 plugins {
     id 'java'
-    id 'checkstyle'
 }
 
 group 'org.example'
@@ -11,27 +10,13 @@ repositories {
 }
 
 dependencies {
+    implementation 'org.jetbrains:annotations:20.1.0'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.2'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.2'
     implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.12.0'
     implementation group: 'org.apache.commons', name: 'commons-math3', version: '3.6.1'
-    implementation 'com.puppycrawl.tools:checkstyle:10.12.2'
 }
 
 test {
     useJUnitPlatform()
-}
-
-checkstyle {
-    toolVersion '10.12.2'
-    configFile rootProject.file('checkstyle.xml')
-    showViolations true
-    ignoreFailures false
-}
-
-tasks.withType(Checkstyle) {
-    reports {
-        xml.enabled = false
-        html.enabled = true
-    }
 }

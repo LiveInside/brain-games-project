@@ -3,7 +3,7 @@ package org.example;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         System.out.print("""
                 Please enter the game number and press Enter.
                 1 - Greet
@@ -14,7 +14,7 @@ public class Main {
                 6 - Prime
                 0 - Exit
                 """);
-        System.out.print("Your choice: " );
+        System.out.print("Your choice: ");
         Scanner scanner = new Scanner(System.in);
         int userChoice = scanner.nextInt();
         scanner.nextLine();
@@ -40,6 +40,8 @@ public class Main {
             case 6 :
                 Prime.prime();
                 break;
+            default:
+                System.out.println("Invalid number");
         }
         scanner.close();
     }
