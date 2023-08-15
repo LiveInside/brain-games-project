@@ -1,6 +1,8 @@
-package org.example;
+package org.project.braingames;
 
 import org.apache.commons.lang3.RandomStringUtils;
+import org.project.utils.EndOutput;
+import org.project.utils.UserInput;
 
 import java.util.Random;
 

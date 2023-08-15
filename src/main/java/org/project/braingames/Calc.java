@@ -1,8 +1,10 @@
-package org.example;
+package org.project.braingames;
 
 import java.util.Random;
 
 import org.apache.commons.lang3.RandomStringUtils;
+import org.project.utils.EndOutput;
+import org.project.utils.UserInput;
 
 public class Calc {
     public static void calc() {
