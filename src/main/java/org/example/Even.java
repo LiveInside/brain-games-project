@@ -5,7 +5,7 @@ import java.util.Random;
 public class Even {
     public static void even() {
         String userName = Greet.greet();
-        System.out.println("Answer 'yes' if number even otherwise answer 'no'");
+        System.out.println("Answer 'yes' if number even otherwise answer 'no'.");
 
         for (var i = 0; i < 3; i++) {
             Random random = new Random();
@@ -16,7 +16,7 @@ public class Even {
             boolean trueAnswer = randomNumber % 2 == 0;
             boolean userAnswer = UserInput.userInputStr().equals("yes");
 
-            if (!EndOutput.endOutput(trueAnswer, userAnswer, userName)) {
+            if (EndOutput.endOutput(trueAnswer, userAnswer, userName)) {
                 return;
             }
         }

@@ -18,12 +18,9 @@ public class Progression {
             char arithOperator = RandomStringUtils.random(1, operators).charAt(0);
 
             System.out.print("Question: ");
-            generatorStrOfNumb(firstNumber, modNumber, arithOperator);
 
-            int trueAnswer = 0;
+            int trueAnswer = generatorStrOfNumb(firstNumber, modNumber, arithOperator, random);
             int userAnswer = UserInput.userInput();
-
-            // Находим trueAnswer
 
             if (EndOutput.endOutput(trueAnswer, userAnswer, userName)) {
                 return;
@@ -33,25 +30,27 @@ public class Progression {
         System.out.println("Congratulations, " + userName);
     }
 
-    private static void generatorStrOfNumb(int firstNumber, int modNumber, char arithOperator){
-        int dots = (int) (Math.random() * 10 - 3);
+    private static int generatorStrOfNumb(int firstNumber, int modNumber, char arithOperator, Random random){
+        int dots = random.nextInt(8);
+        int trueAnswer = 0;
 
-        System.out.print(firstNumber + " ");
-        for (int i = 0; i < 7; i++) {
+        for (int i = 0; i < 8; i++) {
 
-            if (dots == i){
+            if (dots == i) {
                 System.out.print(".. ");
+                trueAnswer = firstNumber;
             } else {
-                int result;
-                if (arithOperator == '+') {
-                    result = firstNumber + modNumber;
-                } else {
-                    result = firstNumber * modNumber;
-                }
-                System.out.print(result + " ");
-                firstNumber = result;
+                System.out.print(firstNumber + " ");
             }
+
+            if (arithOperator == '+') {
+                firstNumber += modNumber;
+            } else {
+                firstNumber *= modNumber;
+            }
+
         }
         System.out.println();
+        return trueAnswer;
     }
 }
